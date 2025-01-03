@@ -10,7 +10,7 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - k8s.devopsikho.com
+        - k8s.mydomain.com
       secretName: k8s-tls
   rules:
   - host: k8s.mydomain.com
