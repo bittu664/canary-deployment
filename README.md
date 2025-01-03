@@ -1,4 +1,6 @@
 # canary-deployment
 
-***CLICK THIS LINK FOR REFERECNE***:- https://kubernetes.github.io/ingress-nginx/examples/canary/
+![Screenshot](./snapshots/Canary.png)
+
+***Click this link for reference***:- https://kubernetes.github.io/ingress-nginx/examples/canary/
 
