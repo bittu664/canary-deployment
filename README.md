@@ -4,9 +4,11 @@
 
 ***Click this link for reference***:- https://kubernetes.github.io/ingress-nginx/examples/canary/
 
-### OUTPUT
+#### OUTPUT
 
+```
 for i in $(seq 1 10); do curl -s --resolve k8s.mydomain.com:80:68.183.247.104 k8s.mydomain.com | grep "Hostname"; done
+```
 
 
 You will get the following output showing that your canary setup is working as expected:
