@@ -13,7 +13,7 @@ spec:
         - k8s.devopsikho.com
       secretName: k8s-tls
   rules:
-  - host: k8s.devopsikho.com
+  - host: k8s.mydomain.com
     http:
       paths:
       - pathType: Prefix
