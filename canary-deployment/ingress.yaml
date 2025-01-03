@@ -11,7 +11,7 @@ spec:
   tls:
     - hosts:
         - k8s.devopsikho.com
-      secretName: k8s-test-tls
+      secretName: k8s-tls
   rules:
   - host: k8s.devopsikho.com
     http:
